@@ -180,7 +180,7 @@ export function BookingForm({ services }: { services: Service[] }) {
               type="submit"
               disabled={!isFormValid || isSubmitting}
               style={{
-                backgroundColor: isFormValid && !isSubmitting ? '#00aefa' : 'lab(48 -2.04 -16.59)',
+                backgroundColor: isFormValid && !isSubmitting ? 'rgb(74,93,117)' : 'rgb(147,167,196)',
                 color: '#ffffff',
               }}
               className="w-full rounded-full h-12 text-base font-semibold transition-colors disabled:opacity-100 cursor-pointer disabled:cursor-not-allowed"
