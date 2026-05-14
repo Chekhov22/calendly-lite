@@ -183,7 +183,7 @@ export function BookingForm({ services }: { services: Service[] }) {
                 backgroundColor: isFormValid && !isSubmitting ? 'rgb(74,93,117)' : 'rgb(147,167,196)',
                 color: '#ffffff',
               }}
-              className="w-full rounded-full h-12 text-base font-semibold transition-colors disabled:opacity-100 cursor-pointer disabled:cursor-not-allowed"
+              className="flex mx-auto rounded-full h-12 px-10 text-base font-semibold transition-colors disabled:opacity-100 cursor-pointer disabled:cursor-not-allowed"
             >
               {isSubmitting ? (
                 <span className="flex items-center gap-2">
