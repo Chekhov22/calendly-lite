@@ -28,7 +28,7 @@ export default async function ThanksPage({ searchParams }: Props) {
 
           <Link
             href="/"
-            className="mt-2 inline-flex w-full h-12 items-center justify-center rounded-full text-base font-semibold text-white transition-colors hover:opacity-90"
+            className="mt-2 inline-flex h-12 items-center justify-center rounded-full px-10 text-base font-semibold text-white transition-colors hover:opacity-90"
             style={{ backgroundColor: 'rgb(74,93,117)' }}
           >
             Записаться ещё раз
